@@ -14,6 +14,10 @@ header{
     background-color: #3161E0;
 }
 
+footer{
+    background-color: #23272A;
+}
+
 /* Utils */
 .flex_header{
     display: flex;
@@ -78,3 +82,66 @@ header{
 .gray{
     background-color: gray;
 }
+
+.single_col .flex_row{
+    height: 400px;
+}
+
+.div_green{
+    width: 100%;
+    height: 100%;
+    background-color: green;
+}
+
+.nav_footer{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    border-bottom: 2px solid gray;
+}
+
+.nav_pink{
+    border: 2px dashed black;
+    flex-basis: 30%;
+    background-color: pink;
+}
+
+.nav_blue{
+    flex-basis: 70%;
+    display: flex;
+    background-color: aqua;
+}
+
+.flex_footer{
+    display: flex;
+    height: 400px;
+    padding-top: 5px;
+    padding-bottom: 20px;
+    border-bottom: 2px solid gray;
+}
+
+.footer_pink{
+    background-color: pink;
+    border: 2px dashed black;
+    flex-basis: 30%;
+}
+
+.footer_blue{
+    background-color: aqua;
+    flex-basis: 70%;
+    display: flex;
+}
+
+.blue_div{
+    flex-basis: 25%;
+    border: 2px dashed white;
+}
+
+.main_footer{
+    display: flex;
+    justify-content: space-between;
+    padding: var(--space) 0;
+    color: white;
+    height: 100px;
+}
+
